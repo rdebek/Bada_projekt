@@ -13,7 +13,7 @@ import java.util.*;
 import java.util.List;
 
 public class Database {
-    Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bada?&serverTimezone=UTC&jdbcCompliantTruncation=false", "root", "1234");
+    Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bada?&serverTimezone=UTC&jdbcCompliantTruncation=false", "login", "haslo");
     Statement myStmt = myConn.createStatement();
     ResultSet myRS;
 
